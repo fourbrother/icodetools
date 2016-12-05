@@ -1,2 +1,29 @@
-# icodetools
-Androidä¸­åŠ¨æ€è‡ªåŠ¨æ’å…¥ä»£ç åˆ°apkä¸­å·¥å…·
+ÉùÃ÷£º±¾Ä¿Â¼ÏÂÓÐÁ½¸öicodetools°æ±¾£¬¿ÉÒÔÓÅÏÈ³¢ÊÔ1.0°æ±¾£¬Èç¹ûÊ§°Ü£¬¿ÉÒÔÔÙ´Î³¢ÊÔ2.0°æ±¾£¡£¡
+      Ä¬ÈÏ×´Ì¬¿ª¹ØÊÇ¹Ø±Õ£¬¿ÉÒÔµ½/data/local/tmpÄ¿Â¼ÏÂ´ò¿ªÈÕÖ¾£ºecho "-s 1" >log.txt	
+
+1¡¢µ±Ç°Ä¿Â¼µÄÐèÒª²Ù×÷µÄapkÎÄ¼þÃû³ÆÄ¬ÈÏÊÇsrc.apkÎÄ¼þ£¬Èç¹ûÏëÐÞ¸ÄapkÃû³Æ£¬¿ÉÒÔÊÖ¶¯µÄÐÞ¸Äicodetools.batÖÐµÄapkÎÄ¼þÃû
+
+2¡¢ÔÚicodetools.batÖÐ¿ÉÒÔÖ¸¶¨µ±Ç°ÈÕÖ¾µÄtag
+
+3¡¢µ±Ç°Ä¿Â¼ÏÂ»¹ÓÐÒ»¸öJWUtils.javaÕâ¸öjavaÎÄ¼þ£¬Õâ¸öÀàÖÐÓÐÒ»Ð©´òÓ¡·½·¨£¬¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÇó¶¨ÒåÒ»Ð©·½·¨£¬µ«ÊÇ¶¨ÒåµÄ·½·¨±ØÐëÓÐÒªÇó£º
+	1¡·¡¢±ØÐëÊÇstaticÀàÐÍ
+	2¡·¡¢·½·¨Ö»ÔÊÐíÓÐÒ»¸ö²ÎÊýÊÇStringÀàÐÍµÄ£¬¶øÕâ¸ö²ÎÊý¾ÍÊÇ´òÓ¡µÄÈÕÖ¾tag
+	3¡·¡¢·½·¨Ãû³Æ¿ÉÒÔËæÒâÖ¸¶¨£¬µ«ÊÇ±ØÐëÔÚicodetools.batÖÐ±£³ÖÒ»ÖÂ
+	ËùÒÔ×îÖÕµÄ·½·¨Ä£°åÎª: public static XXX YYY(String tag)
+	Õâ¸öÀàµÄÃû³Æ¿ÉÒÔ±ä¶¯£¬µ«ÊÇ°üÃû±ØÐëºÍicodetoolsÖÐ±£³ÖÒ»ÖÂ¡£
+
+4¡¢µ±Ç°Ä¿Â¼ÏÂµÄcompile_java.batÊÇºÏ³ÉjarÊ¹ÓÃ£¬²»¿ÉÒÔËæ±ãÐÞ¸Ä
+
+5¡¢µ±Ç°Ä¿Â¼ÏÂµÄlibsÄ¿Â¼ÖÐÊÇ¹¤¾ßÒÀÀµµÄjar°ü£¬²»¿ÉÒÔËæ±ãÐÞ¸Ä
+
+6¡¢µ±Ç°Ä¿Â¼ÏÂµÄJWUtils.javaÎÄ¼þÃûºÍ°üÃû¶¼²»¿É±ä¶¯
+
+7¡¢cyy_game.keystoreÇ©ÃûÎÄ¼þÃû²»¿É½øÐÐÐÞ¸Ä
+
+8¡¢Èç¹ûÏë×Ô¼ºÔÙ´ÎÇ©Ãû£¬¿ÉÒÔÊ¹ÓÃunsigned.apkÎÄ¼þ²Ù×÷£¬signed.apkÊÇÊ¹ÓÃÁËcyy_game.keystoreÎÄ¼þÇ©Ãû
+
+9¡¢ÔÚicodetools.batÖÐÐèÒªÊÖ¶¯ÉèÖÃaaptÃüÁîµÄÂ·¾¶
+
+10¡¢¹¤¾ßÔËÐÐÇ°±ØÐëÅäÖÃJAVA_HOME»·¾³±äÁ¿
+
+11¡¢ÏÖ½×¶ÎÖ»Ö§³ÖJDK1.7ÒÔ¼°ÒÔÏÂ°æ±¾±àÒëÆ÷£¬²»Ö§³Ö1.8ÒÔ¼°ÒÔÉÏµÄ
