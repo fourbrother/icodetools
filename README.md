@@ -29,6 +29,6 @@
 
 
 ##关于日志过滤规则使用
-### "-s 1 -m XXX -c com.xxx.xxx -r int -p (java.lang.String)
+### echo "-s 1 -m XXX -c com.xxx.xxx -r int -p (java.lang.String)"
 	只打印 com.xxx.xxx.XXX方法，返回类型是int,参数是String类型的方法。
 	关于日志过滤规则可以自己定义，自己在JWUtils类中定义即可！
