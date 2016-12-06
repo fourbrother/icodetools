@@ -1,29 +1,27 @@
-ÉùÃ÷£º±¾Ä¿Â¼ÏÂÓÐÁ½¸öicodetools°æ±¾£¬¿ÉÒÔÓÅÏÈ³¢ÊÔ1.0°æ±¾£¬Èç¹ûÊ§°Ü£¬¿ÉÒÔÔÙ´Î³¢ÊÔ2.0°æ±¾£¡£¡
-      Ä¬ÈÏ×´Ì¬¿ª¹ØÊÇ¹Ø±Õ£¬¿ÉÒÔµ½/data/local/tmpÄ¿Â¼ÏÂ´ò¿ªÈÕÖ¾£ºecho "-s 1" >log.txt	
+å£°æ˜Žï¼šæœ¬ç›®å½•ä¸‹æœ‰ä¸¤ä¸ªicodetoolsç‰ˆæœ¬ï¼Œå¯ä»¥ä¼˜å…ˆå°è¯•1.0ç‰ˆæœ¬ï¼Œå¦‚æžœå¤±è´¥ï¼Œå¯ä»¥å†æ¬¡å°è¯•2.0ç‰ˆæœ¬ï¼ï¼
+      é»˜è®¤çŠ¶æ€å¼€å…³æ˜¯å…³é—­ï¼Œæ—¥å¿—çš„tagæ˜¯"jw"ï¼Œå¯ä»¥åˆ°/data/local/tmpç›®å½•ä¸‹æ‰“å¼€æ—¥å¿—ï¼šecho "-s 1" >log.txt	
 
-1¡¢µ±Ç°Ä¿Â¼µÄÐèÒª²Ù×÷µÄapkÎÄ¼þÃû³ÆÄ¬ÈÏÊÇsrc.apkÎÄ¼þ£¬Èç¹ûÏëÐÞ¸ÄapkÃû³Æ£¬¿ÉÒÔÊÖ¶¯µÄÐÞ¸Äicodetools.batÖÐµÄapkÎÄ¼þÃû
+1ã€å½“å‰ç›®å½•çš„éœ€è¦æ“ä½œçš„apkæ–‡ä»¶åç§°é»˜è®¤æ˜¯src.apkæ–‡ä»¶ï¼Œå¦‚æžœæƒ³ä¿®æ”¹apkåç§°ï¼Œå¯ä»¥æ‰‹åŠ¨çš„ä¿®æ”¹icodetools.batä¸­çš„apkæ–‡ä»¶å
 
-2¡¢ÔÚicodetools.batÖÐ¿ÉÒÔÖ¸¶¨µ±Ç°ÈÕÖ¾µÄtag
+2ã€åœ¨icodetools.batä¸­å¯ä»¥æŒ‡å®šå½“å‰æ—¥å¿—çš„tagï¼Œåœ¨icodetools.batå¯ä»¥é…ç½®
 
-3¡¢µ±Ç°Ä¿Â¼ÏÂ»¹ÓÐÒ»¸öJWUtils.javaÕâ¸öjavaÎÄ¼þ£¬Õâ¸öÀàÖÐÓÐÒ»Ð©´òÓ¡·½·¨£¬¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÇó¶¨ÒåÒ»Ð©·½·¨£¬µ«ÊÇ¶¨ÒåµÄ·½·¨±ØÐëÓÐÒªÇó£º
-	1¡·¡¢±ØÐëÊÇstaticÀàÐÍ
-	2¡·¡¢·½·¨Ö»ÔÊÐíÓÐÒ»¸ö²ÎÊýÊÇStringÀàÐÍµÄ£¬¶øÕâ¸ö²ÎÊý¾ÍÊÇ´òÓ¡µÄÈÕÖ¾tag
-	3¡·¡¢·½·¨Ãû³Æ¿ÉÒÔËæÒâÖ¸¶¨£¬µ«ÊÇ±ØÐëÔÚicodetools.batÖÐ±£³ÖÒ»ÖÂ
-	ËùÒÔ×îÖÕµÄ·½·¨Ä£°åÎª: public static XXX YYY(String tag)
-	Õâ¸öÀàµÄÃû³Æ¿ÉÒÔ±ä¶¯£¬µ«ÊÇ°üÃû±ØÐëºÍicodetoolsÖÐ±£³ÖÒ»ÖÂ¡£
+3ã€å½“å‰ç›®å½•ä¸‹è¿˜æœ‰ä¸€ä¸ªJWUtils.javaè¿™ä¸ªjavaæ–‡ä»¶ï¼Œè¿™ä¸ªç±»ä¸­æœ‰ä¸€äº›æ‰“å°æ–¹æ³•ï¼Œå¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€æ±‚å®šä¹‰ä¸€äº›æ–¹æ³•ï¼Œä½†æ˜¯å®šä¹‰çš„æ–¹æ³•å¿…é¡»æœ‰è¦æ±‚ï¼š
+	1ã€‹ã€å¿…é¡»æ˜¯staticç±»åž‹
+	2ã€‹ã€æ–¹æ³•åªå…è®¸æœ‰ä¸€ä¸ªå‚æ•°æ˜¯Stringç±»åž‹çš„ï¼Œè€Œè¿™ä¸ªå‚æ•°å°±æ˜¯æ‰“å°çš„æ—¥å¿—tag
+	3ã€‹ã€æ–¹æ³•åç§°å¯ä»¥éšæ„æŒ‡å®šï¼Œä½†æ˜¯å¿…é¡»åœ¨icodetools.batä¸­ä¿æŒä¸€è‡´
+	æ‰€ä»¥æœ€ç»ˆçš„æ–¹æ³•æ¨¡æ¿ä¸º: public static XXX YYY(String tag)
+	è¿™ä¸ªç±»çš„åç§°å¯ä»¥å˜åŠ¨ï¼Œä½†æ˜¯åŒ…åå¿…é¡»å’Œicodetoolsä¸­ä¿æŒä¸€è‡´ã€‚
 
-4¡¢µ±Ç°Ä¿Â¼ÏÂµÄcompile_java.batÊÇºÏ³ÉjarÊ¹ÓÃ£¬²»¿ÉÒÔËæ±ãÐÞ¸Ä
+4ã€å½“å‰ç›®å½•ä¸‹çš„libsç›®å½•ä¸­æ˜¯å·¥å…·ä¾èµ–çš„jaråŒ…ï¼Œä¸å¯ä»¥éšä¾¿ä¿®æ”¹
 
-5¡¢µ±Ç°Ä¿Â¼ÏÂµÄlibsÄ¿Â¼ÖÐÊÇ¹¤¾ßÒÀÀµµÄjar°ü£¬²»¿ÉÒÔËæ±ãÐÞ¸Ä
+5ã€å½“å‰ç›®å½•ä¸‹çš„JWUtils.javaæ–‡ä»¶åå’ŒåŒ…åéƒ½ä¸å¯å˜åŠ¨
 
-6¡¢µ±Ç°Ä¿Â¼ÏÂµÄJWUtils.javaÎÄ¼þÃûºÍ°üÃû¶¼²»¿É±ä¶¯
+6ã€cyy_game.keystoreç­¾åæ–‡ä»¶åä¸å¯è¿›è¡Œä¿®æ”¹
 
-7¡¢cyy_game.keystoreÇ©ÃûÎÄ¼þÃû²»¿É½øÐÐÐÞ¸Ä
+7ã€å¦‚æžœæƒ³è‡ªå·±å†æ¬¡ç­¾åï¼Œå¯ä»¥ä½¿ç”¨unsigned.apkæ–‡ä»¶æ“ä½œï¼Œsigned.apkæ˜¯ä½¿ç”¨äº†cyy_game.keystoreæ–‡ä»¶ç­¾å
 
-8¡¢Èç¹ûÏë×Ô¼ºÔÙ´ÎÇ©Ãû£¬¿ÉÒÔÊ¹ÓÃunsigned.apkÎÄ¼þ²Ù×÷£¬signed.apkÊÇÊ¹ÓÃÁËcyy_game.keystoreÎÄ¼þÇ©Ãû
+8ã€åœ¨icodetools.batä¸­éœ€è¦æ‰‹åŠ¨è®¾ç½®aaptå‘½ä»¤çš„è·¯å¾„
 
-9¡¢ÔÚicodetools.batÖÐÐèÒªÊÖ¶¯ÉèÖÃaaptÃüÁîµÄÂ·¾¶
+9ã€å·¥å…·è¿è¡Œå‰å¿…é¡»é…ç½®JAVA_HOMEçŽ¯å¢ƒå˜é‡
 
-10¡¢¹¤¾ßÔËÐÐÇ°±ØÐëÅäÖÃJAVA_HOME»·¾³±äÁ¿
-
-11¡¢ÏÖ½×¶ÎÖ»Ö§³ÖJDK1.7ÒÔ¼°ÒÔÏÂ°æ±¾±àÒëÆ÷£¬²»Ö§³Ö1.8ÒÔ¼°ÒÔÉÏµÄ
+10ã€çŽ°é˜¶æ®µåªæ”¯æŒJDK1.7ä»¥åŠä»¥ä¸‹ç‰ˆæœ¬ç¼–è¯‘å™¨ï¼Œä¸æ”¯æŒ1.8ä»¥åŠä»¥ä¸Šçš„ï¼Œæ£€æŸ¥javacå‘½ä»¤ç‰ˆæœ¬å³å¯
