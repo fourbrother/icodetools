@@ -32,3 +32,6 @@
 ### echo "-s 1 -m XXX -c com.xxx.xxx -r int -p (java.lang.String)"
 	只打印 com.xxx.xxx.XXX方法，返回类型是int,参数是String类型的方法。
 	关于日志过滤规则可以自己定义，自己在JWUtils类中定义即可！
+
+##如果工具目录下存在apk文件，但是工具还是提示无法找到apk文件
+	可能是以为工具当前存放的目录路径中包含了空格，因为Windows平台是支持目录名包含空格的
